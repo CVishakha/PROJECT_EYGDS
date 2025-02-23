@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #e7f1d1, rgb(223, 235, 171),#8ad5f3);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Login Container */
+.login-container {
+  background: linear-gradient(to right, #b08bc6, #5ab3cb);
+  padding: 80px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 500px;
+}
+
+/* Form Inline Layout */
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+/* Labels */
+label {
+  font-weight: 700;
+  font-size: 20px;
+  min-width: 50px;
+  text-align: 200;
+}
+
+/* Input Fields */
+input {
+  flex: 1;
+  padding: 13px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Password Input with Eye Icon */
+.pass-input-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pass-input-div svg {
+  cursor: pointer;
+  color: #555;
+}
+
+/* Buttons */
+.login-btn {
+  width: 40%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  background: #4facfe;
+  color: white;
+  margin-left: 180px;
+}
+
+.login-btn:hover {
+  background: #0f0f10;
+  
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+  }
+  .inline-form {
+    flex-direction: column;
+  }
+}
+/* Logo Styling */
+.login-logo img {
+  width: 350px; 
+  height: 150px; 
+  display: block;
+  margin: 0 auto 1px; /* Center align */
+}
